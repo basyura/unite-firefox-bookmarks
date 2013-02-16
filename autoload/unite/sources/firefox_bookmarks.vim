@@ -23,7 +23,7 @@ function! s:source.gather_candidates(args, context)
 endfunction
 
 
-let s:source.action_table.execute = {'description' : 'open buffer'}
+let s:source.action_table.execute = {'description' : 'open browser'}
 function! s:source.action_table.execute.func(candidate)
   call openbrowser#open(a:candidate.source__bookmark.uri)
 endfunction
