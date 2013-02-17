@@ -11,3 +11,8 @@ License
 -------
 
 MIT License
+
+Usage
+-----
+
+    :Unite firefox/bookmarks
